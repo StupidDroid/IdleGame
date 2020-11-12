@@ -19,7 +19,7 @@ Buttons
 		desc:Tucker will spawn a jar of mayonnaise before your eyes.
 		on click:anim icon wobble
 		on click:yield 1 jar
-		icon:https://github.com/StupidDroid/IdleGame/raw/master/Mayo.png
+		icon:https://github.com/StupidDroid/IdleGame/raw/master/MayoProgenitor.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
