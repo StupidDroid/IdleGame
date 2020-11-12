@@ -78,6 +78,12 @@ Buildings
 		cost:6400 jars
 		req:9000 jars:earned
 		
+	*mayoCorp
+		name:Mayo Corporation
+		desc:Mcdonald's number one competitor
+		on tick:yield 3.2 jars
+		cost:25000 jars
+		req:35000 jars:earned
 
 		
 Upgrades
