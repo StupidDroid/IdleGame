@@ -38,7 +38,7 @@ Resources
 		desc:A beautiful, shiny jar of mayonnaise. I wonder what it's for?
 		icon:https://github.com/StupidDroid/IdleGame/raw/master/GoldenMayo.png
 		Class:noBackground
-		showEarned
+		show earned
 
 Buildings
 	*TEMPLATE
