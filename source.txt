@@ -50,6 +50,11 @@ Buildings
 		on tick:yield 0.1 jars
 		cost:25 jars
 
+	*basementStartup
+		name:Basement Startup
+		desc:The first step on the road to a mayonnaise empire.
+		on tick:yield 0.2 jars
+		cost:100 jars
 Upgrades
 	*Espresso
 		name:Espresso
@@ -59,7 +64,7 @@ Upgrades
 		
 	*aggressiveTap
 		name:Aggressive Tap
-		desc:You poke Tucker with greater force.
+		desc:You poke Tucker with greater force.<//><b>Effect:<.>Clicks produce 1 additional jar of mayonnaise.</b>
 		passive:increase jar yield of mayonnaiseButton by 1
 		cost:1 goldMayo
 	
@@ -78,5 +83,5 @@ Shinies
 		movement:onRight moveLeft fade spinCW:1 moveRandom
 		on click:yield (random(1,2)) goldMayo
 		icon:https://github.com/StupidDroid/IdleGame/raw/master/GoldenMayo.png
-		class:bigButton
+		class:button
 
