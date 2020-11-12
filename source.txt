@@ -47,6 +47,7 @@ Buildings
 	*coffeeCup
 		name:Cup of Coffee
 		desc:Energizes Tucker so that he produces mayonnaise at a faster rate.
+		icon:https://github.com/StupidDroid/IdleGame/raw/master/coffee.png
 		on tick:yield 0.1 jars
 		cost:25 jars
 
@@ -75,7 +76,6 @@ Upgrades
 		name:Espresso
 		desc:Gives the coffee a kick!<//><b>Effect:<.>Makes the Coffee Cups twice as effective.</b>
 		passive:multiply yield of coffeeCup by 2
-		icon:https://github.com/StupidDroid/IdleGame/raw/master/coffee.png
 		cost:300 jars
 		
 	*aggressiveTap
