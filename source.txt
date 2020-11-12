@@ -38,7 +38,7 @@ Resources
 		desc:A beautiful, shiny jar of mayonnaise. I wonder what it's for?
 		icon:https://github.com/StupidDroid/IdleGame/raw/master/GoldenMayo.png
 		Class:noBackground
-		show earned
+		hidden when 0
 
 Buildings
 	*TEMPLATE
@@ -52,9 +52,23 @@ Buildings
 
 	*basementStartup
 		name:Basement Startup
-		desc:The first step on the road to a mayonnaise empire.
+		desc:With the power of mayonnaise and Kickstarter on my side...
 		on tick:yield 0.2 jars
 		cost:100 jars
+	
+	*mayoFarm
+		name:Mayo Farm
+		desc:Somebody's discovered the magic of chickens.
+		on tick: 0.4 jars
+		cost:400 jars
+	
+	*mayoBusiness
+		name:Mayonnaise Business
+		desc:Who knew sharks liked mayonnaise so much?
+		on tick:0.8 jars
+		cost: 1600 jars
+		req:4000 jars:earned
+		
 Upgrades
 	*Espresso
 		name:Espresso
@@ -68,6 +82,12 @@ Upgrades
 		passive:increase jar yield of mayonnaiseButton by 1
 		cost:1 goldMayo
 	
+	*tendies
+		name:Chicken Tendies
+		desc:Mom made some tendies for her basement-dwelling child. YES! <//><b>Effect: <.>Double the production of your Basement Startups.</b>
+		passive:multiply yield of basementStartup by 2
+		cost:1200 jars
+	
 Achievements
 	*mayoAchiev500
 		name:The first step
@@ -80,7 +100,9 @@ Shinies
 		frequency:120
 		frequency variation:60
 		movement:onRight moveLeft fade spinCW:1 randomAngle bobVertical:0.05
-		on click:yield (random(1,2)) goldMayo
+		on click:
+			$amount = random(1,2)
+			toast You discover [$amount] jar[s?$amount]<//> of Golden Mayonnaise!
 		icon:https://github.com/StupidDroid/IdleGame/raw/master/GoldenMayo.png
 		class:button
 
