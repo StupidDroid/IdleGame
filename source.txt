@@ -1,0 +1,6 @@
+Let's make a game!
+	name: Mayonnaise Madness
+	by: Tucker & Ben
+	desc: Drown in mayonnaise.
+	created:12/11/2020
+	version:1
