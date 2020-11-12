@@ -100,10 +100,8 @@ Shinies
 		frequency:120
 		frequency variation:60
 		movement:onRight moveLeft fade spinCW:1 randomAngle bobVertical:0.05
+		icon:https://github.com/StupidDroid/IdleGame/raw/master/GoldenMayo.png
 		on click:
 			$amount = random(1,2)
 			toast You discover [$amount] jar[s?$amount]<//> of Golden Mayonnaise!
 		end
-		icon:https://github.com/StupidDroid/IdleGame/raw/master/GoldenMayo.png
-		class:button
-
