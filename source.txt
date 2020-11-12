@@ -105,3 +105,4 @@ Shinies
 			$amount = random(1,2)
 			toast You discover [$amount] jar[s?$amount]<//> of Golden Mayonnaise!
 		end
+
