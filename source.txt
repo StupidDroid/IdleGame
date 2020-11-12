@@ -79,7 +79,7 @@ Shinies
 	*goldenMayonnaise
 		frequency:120
 		frequency variation:60
-		movement:onRight moveLeft fade spinCW:1 moveRandom
+		movement:onRight moveLeft fade spinCW:1 randomAngle bobVertical:0.05
 		on click:yield (random(1,2)) goldMayo
 		icon:https://github.com/StupidDroid/IdleGame/raw/master/GoldenMayo.png
 		class:button
