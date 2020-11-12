@@ -7,3 +7,4 @@ Let's make a game!
 
 Settings
 	background:https://www.lefthudson.com/wp-content/uploads/2019/11/white-wallpaper-1920x1080-beautiful-white-background-hd-c2b7e291a0-download-free-full-hd-backgrounds-for-desktop-puters-and-smartphones-for-you-of-white-wallpaper-1920x1080.jpg
+	
