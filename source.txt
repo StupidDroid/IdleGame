@@ -69,7 +69,7 @@ Shinies
 		name:Golden Mayonnaise Jar
 		frequency:120
 		frequency variation:60
-		movement:onRight moveLeft fade spinCW:1 bobVertical
+		movement:onRight moveLeft fade spinCW:1 moveRandom
 		on click:yield (random(1,2)) goldMayo
 		icon:https://github.com/StupidDroid/IdleGame/raw/master/GoldenMayo.png
 		class:bigButton
