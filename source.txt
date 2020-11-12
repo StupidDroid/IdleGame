@@ -43,6 +43,13 @@ Buildings
 		on tick:yield 0.1 jars
 		cost:100 jars
 
+Upgrades
+	*espresso
+		name:Espresso
+		desc:Makes each coffee twice as effective
+		passive:multiply yield of coffeeCup by 2
+		cost:300
+
 Achievements
 	*mayoAchiev500
 		name:The first step
