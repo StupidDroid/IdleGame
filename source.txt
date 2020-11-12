@@ -82,8 +82,8 @@ Buildings
 		name: Mayo Corporation
 		desc:You sell mayo all over the world.
 		on tick:yield 3.2 jars
-		cost: 25000
-		req: 35000 jars:earned
+		cost:25000
+		req:35000 jars:earned
 		
 Upgrades
 		
