@@ -106,6 +106,7 @@ Upgrades
 		desc:You poke Tucker with greater force.<//><b>Effect:<.>Clicks produce 1 additional jar of mayonnaise.</b>
 		passive:increase jar yield of mayonnaiseButton by 1
 		cost:1 goldMayo
+		req:1 goldMayo:earned
 	
 	*tendies
 		name:Chicken Tendies
