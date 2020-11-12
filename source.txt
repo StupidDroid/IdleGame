@@ -60,7 +60,7 @@ Buildings
 	
 	*mayoFarm
 		name:Mayo Farm
-		desc:Somebody's discovered the magic of mayo plants.
+		desc:Somebody's discovered the magic of mayo producing plants.
 		on tick:yield 0.4 jars
 		cost:400 jars
 	
@@ -70,6 +70,20 @@ Buildings
 		on tick:yield 0.8 jars
 		cost:1600 jars
 		req:4000 jars:earned
+		
+	*mayoFactory
+		name: Mayo Factory
+		desc:Willy Wonka has nothing on this.
+		on tick:yield 1.6 jars
+		cost:6400 jars
+		req:9000 jars:earned
+		
+	*mayoCorporation
+		name: Mayo Corporation
+		desc:You sell mayo all over the world.
+		on tick:yield 3.2 jars
+		cost: 25000
+		req: 35000 jars:earned
 		
 Upgrades
 		
@@ -113,6 +127,27 @@ Upgrades
 		desc:Mom made some tendies for her basement-dwelling child. YES! <//><b>Effect: <.>Double the production of your Basement Startups.</b>
 		passive:multiply yield of basementStartup by 2
 		cost:1200 jars
+		req:basementStartup>=10
+		
+	*subreddit
+		name:Subreddit
+		desc:You make a subreddit for your buisness. Hope you get some updoots! <//><b>Effect: <.>Triple the production of your Basement Startups.</b>
+		passive:multiply yield of basementStartup by 3
+		cost:14000 jars
+		req:basementStartup>=25
+		
+	*friends
+		name:Hire your friends
+		desc:Let's hope you can pay them the amount you promised! <//><b>Effect: <.>Quadruple the production of your Basement Startups.</b>
+		passive:multiply yield of basementStartup by 4
+		cost:170000 jars
+		req:basementStartup>=50
+		
+	*fullTime
+		name:You drop out of school and work full time! <//><b>Effect: <.>Quintuple the production of your Basement Startups.</b>
+		passive:multiply yield of basementStartup by 5
+		cost:2000000 jars
+		req:basementStartup>=100
 	
 Achievements
 	*mayoAchiev500
