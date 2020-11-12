@@ -32,6 +32,13 @@ Resources
 		icon:https://github.com/StupidDroid/IdleGame/raw/master/Mayo.png	
 		Class:noBackground
 		show earned
+	
+	*goldMayo
+		name:Golden Mayonnaise Jar
+		desc:A beautiful, shiny jar of mayonnaise. I wonder what it's for?
+		icon:
+		Class:noBackground
+		showEarned
 
 Buildings
 	*TEMPLATE
@@ -41,7 +48,7 @@ Buildings
 		name:Coffee Cup
 		desc:Energizes Tucker so that he produces mayonnaise at a faster rate.
 		on tick:yield 0.1 jars
-		cost:100 jars
+		cost:25 jars
 
 Upgrades
 	*Espresso
@@ -49,10 +56,19 @@ Upgrades
 		desc:Gives the coffee a kick!<//><b>Effect:<.>Makes the Coffee Cups twice as effective.</b>
 		passive:multiply yield of coffeeCup by 2
 		cost:300 jars
-
+	
 Achievements
 	*mayoAchiev500
 		name:The first step
 		desc:Have <b>500</b> jars of mayonnaise.
 		req:500 jars:earned
 		icon:https://github.com/StupidDroid/IdleGame/raw/master/Mayo.png
+
+Shinies
+	*goldenMayonnaise
+		name:Golden Mayonnaise Jar
+		frequency:120
+		frequency variation:60
+		movement: onRight moveLeft fade spinCW:1 bobVertical
+		on click:yield (random(1,2)) *goldMayo
+		icon:
