@@ -126,7 +126,7 @@ Upgrades
 	*doubleHands
 		name:Double Tap
 		desc:You start tapping Tucker with both hands<//><b>Effect:<.>Jar amount doubled per click.</b>
-		passive:multiply yield ofmayonnaiseButton by 2
+		passive:multiply yield of mayonnaiseButton by 2
 		cost:5 goldMayo
 		req:4 goldMayo:earned
 	
