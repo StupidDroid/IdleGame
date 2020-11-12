@@ -72,12 +72,35 @@ Buildings
 		req:4000 jars:earned
 		
 Upgrades
-	*Espresso
-		name:Espresso
-		desc:Gives the coffee a kick!<//><b>Effect:<.>Makes the Coffee Cups twice as effective.</b>
+		
+	*Sugar
+		name:More Sugar
+		desc:Just one more spoonful ... or two. <//><b>Effect:<.>Makes the Coffee Cups twice as effective.</b>
 		passive:multiply yield of coffeeCup by 2
 		cost:300 jars
+		req:coffeeCup>=10
+	
+	*bigCup
+		name:Bigger cup
+		desc:Bigger cup means more coffee! <//><b>Effect:<.>Makes the Coffee Cups three times as effective.</b>
+		passive:multiply yield of coffeeCup by 3
+		cost:3600 jars
+		req:coffeeCup>=25
 		
+	*Creamer
+		name:Mayo Creamer
+		desc:A yummy creamer made from Mayo that makes it irresistible. <//><b>Effect:<.>Makes the Coffee Cups four times as effective.</b>
+		passive:multiply yield of coffeeCup by 4
+		cost:43000 jars
+		req:coffeeCup>=50
+		
+	*Espresso
+		name:Espresso
+		desc:Gives the coffee a kick!<//><b>Effect:<.>Makes the Coffee Cups five times as effective.</b>
+		passive:multiply yield of coffeeCup by 5
+		cost:500000 jars
+		req:coffeeCup<=100
+	
 	*aggressiveTap
 		name:Aggressive Tap
 		desc:You poke Tucker with greater force.<//><b>Effect:<.>Clicks produce 1 additional jar of mayonnaise.</b>
