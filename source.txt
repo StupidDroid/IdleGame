@@ -46,7 +46,7 @@ Buildings
 Upgrades
 	*Espresso
 		name:Espresso
-		desc:Makes each coffee twice as effective
+		desc:Gives the coffee a kick!<//><b>Effect:<b><.>Makes the Coffee Cups twice as effective<.>
 		passive:multiply yield of coffeeCup by 2
 		cost:300 jars
 
