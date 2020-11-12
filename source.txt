@@ -21,7 +21,7 @@ Buttons
 		on click:yield 1 oz.
 		icon:https://github.com/StupidDroid/IdleGame/raw/master/Mayo.png
 		no text
-		class:bigButon hasFlares
+		class:bigButton hasFlares
 		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
