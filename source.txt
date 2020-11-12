@@ -60,7 +60,7 @@ Buildings
 	
 	*mayoFarm
 		name:Mayo Farm
-		desc:Somebody's discovered the magic of chickens.
+		desc:Somebody's discovered the magic of mayo plants.
 		on tick:yield 0.4 jars
 		cost:400 jars
 	
