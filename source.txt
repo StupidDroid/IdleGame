@@ -80,9 +80,9 @@ Buildings
 		
 	*mayoCorporation
 		name: Mayo Corporation
-		desc:You sell mayo all over the world.
+		desc:Mcdonalds number one competetor.
 		on tick:yield 3.2 jars
-		cost:25000
+		cost:25000 jars
 		req:35000 jars:earned
 		
 Upgrades
