@@ -123,6 +123,13 @@ Upgrades
 		cost:1 goldMayo
 		req:1 goldMayo:earned
 	
+	*doubleHands
+		name:Double Tap
+		desc:You start tapping Tucker with both hands<//><b>Effect:<.>Jar amount doubled per click.</b>
+		passive:multiply yield ofmayonnaiseButton by 2
+		cost:5 goldMayo
+		req:4 goldMayo:earned
+	
 	*tendies
 		name:Chicken Tendies
 		desc:Mom made some tendies for her basement-dwelling child. YES! <//><b>Effect: <.>Double the production of your Basement Startups.</b>
