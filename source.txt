@@ -45,7 +45,7 @@ Buildings
 		on click:anim glow
 		
 	*coffeeCup
-		name:Coffee Cup
+		name:Cup of Coffee
 		desc:Energizes Tucker so that he produces mayonnaise at a faster rate.
 		on tick:yield 0.1 jars
 		cost:25 jars
@@ -56,6 +56,12 @@ Upgrades
 		desc:Gives the coffee a kick!<//><b>Effect:<.>Makes the Coffee Cups twice as effective.</b>
 		passive:multiply yield of coffeeCup by 2
 		cost:300 jars
+		
+	*aggressiveTap
+		name:Aggressive Tap
+		desc:You poke Tucker with greater force.
+		passive:increase jar yield of mayonnaiseButton by 1
+		cost:1 goldMayo
 	
 Achievements
 	*mayoAchiev500
