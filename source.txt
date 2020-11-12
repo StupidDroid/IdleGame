@@ -36,7 +36,7 @@ Resources
 	*goldMayo
 		name:Golden Mayonnaise Jar
 		desc:A beautiful, shiny jar of mayonnaise. I wonder what it's for?
-		icon:
+		icon:https://github.com/StupidDroid/IdleGame/raw/master/GoldenMayo.png
 		Class:noBackground
 		showEarned
 
@@ -71,4 +71,4 @@ Shinies
 		frequency variation:60
 		movement: onRight moveLeft fade spinCW:1 bobVertical
 		on click:yield (random(1,2)) *goldMayo
-		icon:
+		icon:https://github.com/StupidDroid/IdleGame/raw/master/GoldenMayo.png
