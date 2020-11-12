@@ -105,6 +105,7 @@ Shinies
 		icon:https://github.com/StupidDroid/IdleGame/raw/master/GoldenMayo.png
 		on click:
 			$amount = random(1,2)
+			yield $amount goldMayo
 			toast You discover [$amount] jar[s?$amount]<//> of Golden Mayonnaise!
 		end
 
