@@ -53,6 +53,7 @@ Buildings
 	*basementStartup
 		name:Basement Startup
 		desc:With the power of mayonnaise and Kickstarter on my side...
+		icon:https://github.com/StupidDroid/IdleGame/raw/master/basement.png
 		on tick:yield 0.2 jars
 		cost:100 jars
 	
@@ -66,7 +67,7 @@ Buildings
 		name:Mayonnaise Business
 		desc:Who knew sharks liked mayonnaise so much?
 		on tick:yield 0.8 jars
-		cost: 1600 jars
+		cost:1600 jars
 		req:4000 jars:earned
 		
 Upgrades
@@ -74,6 +75,7 @@ Upgrades
 		name:Espresso
 		desc:Gives the coffee a kick!<//><b>Effect:<.>Makes the Coffee Cups twice as effective.</b>
 		passive:multiply yield of coffeeCup by 2
+		icon:https://github.com/StupidDroid/IdleGame/raw/master/coffee.png
 		cost:300 jars
 		
 	*aggressiveTap
