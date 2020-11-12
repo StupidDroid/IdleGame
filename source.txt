@@ -99,7 +99,7 @@ Upgrades
 		desc:Gives the coffee a kick!<//><b>Effect:<.>Makes the Coffee Cups five times as effective.</b>
 		passive:multiply yield of coffeeCup by 5
 		cost:500000 jars
-		req:coffeeCup<=100
+		req:coffeeCup>=100
 	
 	*aggressiveTap
 		name:Aggressive Tap
