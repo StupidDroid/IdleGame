@@ -19,7 +19,12 @@ Buttons
 		desc:Spawn an ounce of mayonnaise.
 		on click:anim icon wobble
 		on click:yield 1 oz.
-		icon:
+		icon:https://github.com/StupidDroid/IdleGame/raw/master/Mayo.png
+		no text
+		class:bigButon hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
 
 Resources
 
