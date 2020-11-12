@@ -32,7 +32,17 @@ Resources
 		icon:https://github.com/StupidDroid/IdleGame/raw/master/Mayo.png	
 		Class:noBackground
 		show earned
+
+Buildings
+	*TEMPLATE
+		on click:anim glow
 		
+	*coffeeCup
+		name:Coffee Cup
+		desc:Energizes Tucker so that he produces mayonnaise at a faster rate.
+		on tick:yield 0.1 jars
+		cost:100 jars
+
 Achievements
 	*mayoAchiev500
 		name:The first step
