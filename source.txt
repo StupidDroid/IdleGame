@@ -78,7 +78,7 @@ Buildings
 		cost:6400 jars
 		req:9000 jars:earned
 		
-	
+
 		
 Upgrades
 		
