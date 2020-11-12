@@ -15,10 +15,10 @@ Layout
 	
 Buttons
 	*mayonnaiseButton
-		name:Mayonnaise
-		desc:Spawn an ounce of mayonnaise.
+		name:Mayonnaise God
+		desc:Tucker will spawn a jar of mayonnaise before your eyes.
 		on click:anim icon wobble
-		on click:yield 1 ounce
+		on click:yield 1 jar
 		icon:https://github.com/StupidDroid/IdleGame/raw/master/Mayo.png
 		no text
 		class:bigButton hasFlares
@@ -26,10 +26,16 @@ Buttons
 		tooltip origin:bottom
 		tooltip class:red
 Resources
-	*ounce
-		name: Mayo
-		desc: This is how many ounces of mayo you have
+	*jar|jars
+		name:Mayo Jars
+		desc:This is how many jars of mayonnaise you have
 		icon:https://github.com/StupidDroid/IdleGame/raw/master/Mayo.png	
 		Class:noBackground
 		show earned
 		
+Achievements
+	*mayoAchiev500
+		name:The first step
+		desc:Have <b>500</b> jars of mayonnaise.
+		req:500 jars
+		icon:https://github.com/StupidDroid/IdleGame/raw/master/Mayo.png
