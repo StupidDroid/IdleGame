@@ -175,3 +175,4 @@ Shinies
 			yield $amount goldMayo
 			toast You discover [$amount] jar[s?$amount]<//> of Golden Mayonnaise!
 		end
+
