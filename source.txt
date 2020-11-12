@@ -59,13 +59,13 @@ Buildings
 	*mayoFarm
 		name:Mayo Farm
 		desc:Somebody's discovered the magic of chickens.
-		on tick: 0.4 jars
+		on tick:yield 0.4 jars
 		cost:400 jars
 	
 	*mayoBusiness
 		name:Mayonnaise Business
 		desc:Who knew sharks liked mayonnaise so much?
-		on tick:0.8 jars
+		on tick:yield 0.8 jars
 		cost: 1600 jars
 		req:4000 jars:earned
 		
