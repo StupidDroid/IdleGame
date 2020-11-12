@@ -44,11 +44,11 @@ Buildings
 		cost:100 jars
 
 Upgrades
-	*espresso
+	*Espresso
 		name:Espresso
 		desc:Makes each coffee twice as effective
 		passive:multiply yield of coffeeCup by 2
-		cost:300
+		cost:300 jars
 
 Achievements
 	*mayoAchiev500
