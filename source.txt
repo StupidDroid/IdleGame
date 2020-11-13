@@ -55,33 +55,33 @@ Buildings
 		name:Basement Startup
 		desc:With the power of mayonnaise and Kickstarter on my side...
 		icon:https://github.com/StupidDroid/IdleGame/raw/master/basement.png
-		on tick:yield 0.2 jars
+		on tick:yield 0.5 jars
 		cost:100 jars
 	
 	*mayoFarm
 		name:Mayo Farm
 		desc:Somebody's discovered the magic of mayo producing plants.
-		on tick:yield 0.4 jars
+		on tick:yield 1 jars
 		cost:400 jars
 	
 	*mayoBusiness
 		name:Mayonnaise Business
 		desc:Who knew sharks liked mayonnaise so much?
-		on tick:yield 0.8 jars
+		on tick:yield 5 jars
 		cost:1600 jars
 		req:4000 jars:earned
 		
 	*mayoFactory
 		name: Mayo Factory
 		desc:Willy Wonka has nothing on this.
-		on tick:yield 1.6 jars
+		on tick:yield 10 jars
 		cost:6400 jars
 		req:9000 jars:earned
 		
 	*mayoCorp
 		name:Mayo Corporation
 		desc:Mcdonald's number one competitor
-		on tick:yield 3.2 jars
+		on tick:yield 20 jars
 		cost:25000 jars
 		req:35000 jars:earned
 
